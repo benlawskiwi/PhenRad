@@ -26,12 +26,36 @@ This is the manuscripts abstract...
 \section{Introduction}
 Intro....~\cite{por20,law17}
 \section{Results}
+Here is a figure. You can then refer to the figure using Fig.~\ref{fig1-delay}.
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{Figures/colour-delay}
+	\caption{A figure showing the depletion rate for different laser delays.}
+	\label{fig1-delay}
+\end{figure}
 
 \section{Discussion}
+Equations may be written using general LaTeX format, and the same labelling method.
+\begin{equation}
+I(\theta,\epsilon) = \frac{\sigma_{\text{total}}(\epsilon)}{4\pi}[1+\beta(\epsilon)\text{P}_2(\cos\theta)],
+\label{eq:beta}
+\end{equation}
+where $\beta$ in Eq.~(\ref{eq:beta}) is a really cool parameter.
+
+We can also make tables, like this one, Table~\ref{tab:C2H}.
+\begin{table}
+	\caption{This is my table caption.} \label{tab:C2H}
+	\begin{tabular}{c c c c c}
+		\hline Peak & eBE (cm$^{-1}$) & $v$ (cm$^{-1}$) & $\beta$ & Symmetry \\ 
+		& & & & \\\hline \hline
+		& 23 591 & -231 & + & $\Sigma^+$ 
+	\end{tabular}
+\end{table}
 
 \section{Conclusion}
 
 \section{Experimental Details}
+
+
 \begin{acknowledgement}
 	This research was supported by the Australian Research Council Discovery
 	Project Grant DP160102585. The author's thank Andrei Sanov for discussion on his modified Cooper-Zare anisotropy model.

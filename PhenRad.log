@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  8 JUL 2020 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  8 JUL 2020 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,7 +667,23 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) (./PhenRad.bbl
+)
+<Figures/colour-delay.pdf, id=1, 881.69403pt x 539.85693pt>
+File: Figures/colour-delay.pdf Graphic file (type pdf)
+<use Figures/colour-delay.pdf>
+Package pdftex.def Info: Figures/colour-delay.pdf  used on input line 31.
+(pdftex.def)             Requested size: 252.23367pt x 154.43745pt.
+
+Overfull \hbox (11.52336pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+
+Overfull \hbox (12.73996pt too wide) in paragraph at lines 47--52
+ [][] 
+ []
+
+(./PhenRad.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 30--37
 []\T1/cmr/m/n/12 Porfiriev, D. P.; Azya-zov, V. N.;
  []
@@ -679,38 +695,41 @@ Underfull \hbox (badness 2310) in paragraph at lines 30--37
 
 )
 - LAST -
-Extra skip:61.8307pt
-Left:293.44052pt/2.33276pt
-Right:231.60982pt/2.33276pt
-Output:291.77516pt
+Extra skip:20.94858pt
+Left:520.64684pt/8.23141pt
+Right:505.59691pt/2.33276pt
+Output:510.18887pt
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
-] (./PhenRad.aux) ) 
+ <./Figures/colour-delay.pdf>] (./PhenRad.aux) ) 
 Here is how much of TeX's memory you used:
- 14877 strings out of 494847
- 277225 string characters out of 6179079
- 338374 words of memory out of 5000000
- 18062 multiletter control sequences out of 15000+600000
- 545557 words of font info for 56 fonts, out of 8000000 for 9000
+ 14898 strings out of 494847
+ 277577 string characters out of 6179079
+ 341398 words of memory out of 5000000
+ 18080 multiletter control sequences out of 15000+600000
+ 546323 words of font info for 57 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,9n,94p,10407b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknapp
-en/ec/ecbx1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecrm0800.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jk
-nappen/ec/ecrm1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecbx1728.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecss1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecti1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecss1440.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb>
-Output written on PhenRad.pdf (1 page, 80246 bytes).
+ 60i,10n,94p,10407b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/bal121/.texlive2017/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/bal121/.texlive2017/t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/bal121/.texlive2017
+/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/bal121/.texlive20
+17/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/bal121/.texlive
+2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/bal121/.texli
+ve2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/bal121/.tex
+live2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/bal121/.t
+exlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb>
+Output written on PhenRad.pdf (1 page, 123253 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 308 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
