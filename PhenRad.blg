@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PhenRad.aux
+The style file: achemso.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-PhenRad.bib
+Database file #2: PhenRad.bib
+achemso 2018/02/05 v3.11a
+You've used 3 entries,
+            2536 wiz_defined-function locations,
+            763 strings with 6872 characters,
+and the built_in function-call counts, 969 in all, are:
+= -- 74
+> -- 46
+< -- 4
++ -- 20
+- -- 17
+* -- 89
+:= -- 128
+add.period$ -- 4
+call.type$ -- 3
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 3
+duplicate$ -- 55
+empty$ -- 67
+format.name$ -- 16
+if$ -- 180
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 40
+num.names$ -- 6
+pop$ -- 5
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 3
+stack$ -- 0
+substring$ -- 62
+swap$ -- 51
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 18
+warning$ -- 0
+while$ -- 11
+width$ -- 0
+write$ -- 54

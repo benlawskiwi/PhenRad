@@ -1,0 +1,50 @@
+\documentclass[journal=jacsat,manuscript=article,layout=twocolumn,12pt]{achemso}
+\usepackage[version=3]{mhchem} % Formula subscripts using \ce{}
+\usepackage[T1]{fontenc}       % Use modern font encodings
+\usepackage{amsmath}
+% NB added command for in line cite
+\newcommand{\onlinecite}[1]{\hspace{-1 ex} \nocite{#1}\citenum{#1}} 
+% 2 column equations
+\usepackage{widetext, widetable}
+%
+\author{Z.~Levey}
+\author{B.~A.~Laws}
+\email{B.Laws@unsw.edu.au}
+\author{K.~Nauta} 
+\author{T.~Schmidt}
+
+\affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
+\title{Formation of PhenRad via CH$_2$ ring insertion...}
+\abbreviations{PES,PAD,EA,eKE,FWHM,VMI}
+\begin{document} 
+\begin{abstract} 
+This is the manuscripts abstract...
+\end{abstract} 
+%\begin{tocentry}
+%\includegraphics[width=1\textwidth]{Figures/TOC}
+%\end{tocentry}
+\section{Introduction}
+Intro...~\cite{por20,law17}
+\section{Results}
+\section{Discussion}
+\section{Conclusion}
+\section{Experimental Details}
+\begin{acknowledgement}
+	This research was supported by the Australian Research Council Discovery
+	Project Grant DP160102585. The author's thank Andrei Sanov for discussion on his modified Cooper-Zare anisotropy model.
+\end{acknowledgement}
+
+
+% Create the reference section using BibTeX: 
+\bibliography{PhenRad}
+
+%\newpage
+%\onecolumn
+%\subsection{TOC Graphic}
+%\vspace{2ex}
+%\begin{center}
+%	\includegraphics[width=8.5cm]{Figures/TOC}
+%\end{center}
+
+
+\end{document}
